@@ -262,8 +262,11 @@ p {
 
 /* GALERIE */
 
-#galerie .galerie {
+#galerie {
     background-color: #f2f2f2;
+}
+
+#galerie .galerie {
     flex-direction: column;
     max-width: 1200px;
     margin: 0 auto;
