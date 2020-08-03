@@ -263,6 +263,7 @@ p {
 /* GALERIE */
 
 #galerie .galerie {
+    background-color: #f2f2f2;
     flex-direction: column;
     max-width: 1200px;
     margin: 0 auto;
@@ -345,7 +346,7 @@ p {
     flex-direction: column-reverse;
     text-align: center;
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 50px auto 0 auto;
     padding: 0 20px;
 }
 
@@ -405,7 +406,7 @@ p {
     flex-direction: column;
     max-width: 1200px;
     margin: 0 auto;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 #contact .contact-items {

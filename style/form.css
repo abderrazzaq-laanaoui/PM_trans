@@ -82,12 +82,12 @@ button:hover {
     padding: 15px;
     position: relative;
     background-color: #f2f2f2;
+    margin-top: 100px;
 }
 
 .wrap-contact100 {
     width: 550px;
     background: transparent;
-    /* padding: 50px 0px 0px 0px; */
 }
 
 
@@ -96,18 +96,6 @@ button:hover {
 
 .contact100-form {
     width: 100%;
-}
-
-.contact100-form-title {
-    display: block;
-    font-family: Roboto;
-    font-weight: bold;
-    font-size: 30px;
-    color: #403866;
-    line-height: 1.2;
-    text-transform: uppercase;
-    text-align: center;
-    padding-bottom: 30px;
 }
 
 
@@ -130,9 +118,9 @@ button:hover {
     background: #fff;
     border-radius: 31px;
     font-family: Roboto;
-    font-size: 18px;
+    font-size: 1.5rem;
     color: #8f8fa1;
-    line-height: 1.2;
+    line-height: .5px;
 }
 
 
