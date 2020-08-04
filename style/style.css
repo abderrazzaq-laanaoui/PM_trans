@@ -452,6 +452,10 @@ p {
     font-weight: 500;
 }
 
+#contact .map-lg {
+    display: none;
+}
+
 
 /* <!-- CONTACT END --> */
 
@@ -586,6 +590,19 @@ footer .footer .copyright a {
         width: 30%;
         margin: 0;
         flex-direction: row;
+    }
+    #contact .contact-item.adresse iframe {
+        display: none;
+    }
+    #contact .map-lg {
+        margin: 30px;
+        display: block;
+        border: 5px solid #FFC000;
+    }
+    #contact .map-lg iframe {
+        width: 74vw;
+        max-width: 1200px;
+        height: 32vh;
     }
     #contact .contact-item .icon {
         height: 100px;
