@@ -507,142 +507,101 @@ footer .footer .copyright a {
     h1.section-title {
         font-size: 5rem;
     }
+    /* hero */
+    #hero .cta {
+        font-size: 2.5rem;
+        padding: 20px 60px;
+    }
+    #hero .hero h1:nth-child(1) {
+        font-size: 6rem !important;
+    }
+    #hero .hero h1:nth-child(2) {
+        font-size: 4rem !important;
+    }
+    /* hero end */
+    /* services */
+    #services .service-bottom .service-item {
+        flex-basis: 45%;
+        margin: 1.5%;
+    }
+    /* services end */
+    /* PROJECTS */
+    #galerie .galerie-item {
+        height: 400px;
+        margin: 0;
+        width: 100%;
+        border-radius: 0;
+        flex-direction: row;
+    }
+    #galerie .galerie-item:nth-child(even) {
+        flex-direction: row-reverse;
+    }
+    #galerie .all-galerie .image-info {
+        height: 100%;
+    }
+    #galerie .all-galerie .image {
+        height: 100%;
+    }
+    /* PROJECTS END */
+    /* ABOUT */
+    #about .about {
+        flex-direction: row;
+    }
+    #about .col-left {
+        width: 600px;
+        height: 400px;
+        padding-left: 60px;
+    }
+    #about .about .col-left .about-img::after {
+        left: -45px;
+        top: 34px;
+        height: 98%;
+        width: 98%;
+        border: 10px solid crimson;
+    }
+    #about .col-right {
+        text-align: left;
+        padding: 30px;
+    }
+    #about .col-right h1 {
+        text-align: left;
+    }
+    /* End About */
+    /* contact  */
+    #contact .contact {
+        flex-direction: column;
+        padding: 100px 0;
+        align-items: center;
+        justify-content: center;
+        min-width: 20vh;
+    }
+    #contact .contact-items {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin: 0;
+    }
+    #contact .contact-item {
+        width: 30%;
+        margin: 0;
+        flex-direction: row;
+    }
+    #contact .contact-item .icon {
+        height: 100px;
+        width: 100px;
+    }
+    #contact .contact-item .icon img {
+        object-fit: contain;
+    }
+    #contact .contact-item .contact-info {
+        width: 100%;
+        text-align: left;
+        padding-left: 20px;
+    }
+    /* End contact  */
+    /* ABOUT END */
 }
-
-
-/* hero */
-
-#hero .cta {
-    font-size: 2.5rem;
-    padding: 20px 60px;
-}
-
-#hero .hero h1:nth-child(1) {
-    font-size: 6rem !important;
-}
-
-#hero .hero h1:nth-child(2) {
-    font-size: 4rem !important;
-}
-
-
-/* hero end */
-
-
-/* services */
-
-#services .service-bottom .service-item {
-    flex-basis: 45%;
-    margin: 1.5%;
-}
-
-
-/* services end */
-
-
-/* PROJECTS */
-
-#galerie .galerie-item {
-    height: 400px;
-    margin: 0;
-    width: 100%;
-    border-radius: 0;
-    flex-direction: row;
-}
-
-#galerie .galerie-item:nth-child(even) {
-    flex-direction: row-reverse;
-}
-
-#galerie .all-galerie .image-info {
-    height: 100%;
-}
-
-#galerie .all-galerie .image {
-    height: 100%;
-}
-
-
-/* PROJECTS END */
-
-
-/* ABOUT */
-
-#about .about {
-    flex-direction: row;
-}
-
-#about .col-left {
-    width: 600px;
-    height: 400px;
-    padding-left: 60px;
-}
-
-#about .about .col-left .about-img::after {
-    left: -45px;
-    top: 34px;
-    height: 98%;
-    width: 98%;
-    border: 10px solid crimson;
-}
-
-#about .col-right {
-    text-align: left;
-    padding: 30px;
-}
-
-#about .col-right h1 {
-    text-align: left;
-}
-
-
-/* End About */
-
-
-/* contact  */
-
-#contact .contact {
-    flex-direction: column;
-    padding: 100px 0;
-    align-items: center;
-    justify-content: center;
-    min-width: 20vh;
-}
-
-#contact .contact-items {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    margin: 0;
-}
-
-#contact .contact-item {
-    width: 30%;
-    margin: 0;
-    flex-direction: row;
-}
-
-#contact .contact-item .icon {
-    height: 100px;
-    width: 100px;
-}
-
-#contact .contact-item .icon img {
-    object-fit: contain;
-}
-
-#contact .contact-item .contact-info {
-    width: 100%;
-    text-align: left;
-    padding-left: 20px;
-}
-
-
-/* End contact  */
-
-
-/* ABOUT END */
 
 
 /* TABLET media query END */
