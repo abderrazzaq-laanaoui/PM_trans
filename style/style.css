@@ -118,6 +118,7 @@ header .header {
     /* flex-direction: row-reverse; */
     min-height: 8vh;
     background-color: rgba(31, 30, 30, 0.24);
+    transition: .3s ease background-color;
     /* direction: rtl; */
 }
 
@@ -731,7 +732,7 @@ footer .footer .copyright a {
         top: 34px;
         height: 98%;
         width: 98%;
-        border: 10px solid crimson;
+        border: 10px solid #FFC000;
     }
     #about .col-right {
         text-align: left;
