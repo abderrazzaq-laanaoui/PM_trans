@@ -21,17 +21,6 @@
     border: none;
 }
 
-input[type="number"] {
-    -moz-appearance: textfield;
-    appearance: none;
-    -webkit-appearance: none;
-}
-
-input[type="number"]::-webkit-outer-spin-button,
-input[type="number"]::-webkit-inner-spin-button {
-    -webkit-appearance: none;
-}
-
 textarea {
     outline: none;
     border: none;
@@ -161,7 +150,7 @@ iframe {
 /*---------------------------------------------*/
 
 input.input100 {
-    height: 62px;
+    height: 55px;
     padding: 0 35px 0 35px;
 }
 

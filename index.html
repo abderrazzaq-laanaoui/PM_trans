@@ -7,12 +7,9 @@
     <title>PM-trans 2.0</title>
     <!-- styles -->
     <link rel="stylesheet" href="style/style.css">
-    <link rel="stylesheet" href="style/form.css">
     <link rel="stylesheet" href="style/intlTelInput.min.css">
-
-
+    <link rel="stylesheet" href="style/form.css">
 </head>
-
 
 <body onload="loader()">
     <div class="loader"><img src="img/loader.gif" alt="loader"></div>
@@ -197,7 +194,7 @@
                             <span class="focus-input100 "></span>
                         </div>
 
-                        <div class="wrap-input100 validate-input " data-validate="Entrer un numéro valide ">
+                        <div class="wrap-input100 validate-input " onclick="autoF()" data-validate="Entrer un numéro valide ">
                             <input id="phone" class="input100 " type="tel" name="phone" placeholder="Numéro de telephone ">
                             <span class="focus-input100 "></span>
                         </div>
@@ -293,8 +290,12 @@
     <script src="script/intlTelInput.min.js"></script>
     <script>
         var input = document.querySelector("#phone");
+
+        function autoF() {
+            input.focus();
+        }
         var iti = window.intlTelInput(input, {
-            preferredCountries: ['ma'],
+            preferredCountries: ['ma', "fr"],
             dropdownContainer: document.body,
             // geoIpLookup: function(callback) {
             //     $.get("http://ipinfo.io", function() {}, "jsonp").always(function(resp) {
@@ -305,9 +306,9 @@
             // allowDropdown: false,
             // autoHideDialCode: false,
             // autoPlaceholder: "off",
-            // excludeCountries: ["us"],
+            excludeCountries: ["il"],
             formatOnDisplay: true,
-            hiddenInput: "full_number",
+            hiddenInput: "full",
             // initialCountry: "auto",
             // localizedCountries: { 'de': 'Deutschland' },
             // nationalMode: false,
