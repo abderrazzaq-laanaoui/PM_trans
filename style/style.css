@@ -70,7 +70,7 @@
 }
 
 .show {
-    animation: fade .9s ease;
+    animation: fade .1s ease;
 }
 
 .loader>img {
