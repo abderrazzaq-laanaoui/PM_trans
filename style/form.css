@@ -1,20 +1,22 @@
-/* FONT */
+/* //////////////////////////////////////////////////////////////////
+[ FONT ]*/
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
 
-/*---------------------------------------------*/
-
-
-/* title */
+/*//////////////////////////////////////////////////////////////////
+[ RESTYLE TAG ]*/
 
 .contact100-form h1.section-title {
     margin-bottom: 40px;
 }
 
 
-/*  */
+/*---------------------------------------------*/
 
-input {
+
+/*---------------------------------------------*/
+
+.contact100-form input {
     outline: none;
     border: none;
 }
@@ -40,13 +42,34 @@ input:focus {
     border-color: transparent !important;
 }
 
-input::-webkit-input-placeholder,
-input:-moz-placeholder,
-input::-moz-placeholder,
-input:-ms-input-placeholder,
-textarea::-webkit-input-placeholder,
-textarea:-moz-placeholder,
-textarea::-moz-placeholder,
+input::-webkit-input-placeholder {
+    color: #bdbdd3;
+}
+
+input:-moz-placeholder {
+    color: #bdbdd3;
+}
+
+input::-moz-placeholder {
+    color: #bdbdd3;
+}
+
+input:-ms-input-placeholder {
+    color: #bdbdd3;
+}
+
+textarea::-webkit-input-placeholder {
+    color: #bdbdd3;
+}
+
+textarea:-moz-placeholder {
+    color: #bdbdd3;
+}
+
+textarea::-moz-placeholder {
+    color: #bdbdd3;
+}
+
 textarea:-ms-input-placeholder {
     color: #bdbdd3;
 }
@@ -62,6 +85,17 @@ button {
 
 button:hover {
     cursor: pointer;
+}
+
+iframe {
+    border: none !important;
+}
+
+
+/*---------------------------------------------*/
+
+#contact form .container {
+    max-width: 1200px;
 }
 
 
@@ -82,12 +116,12 @@ button:hover {
     padding: 15px;
     position: relative;
     background-color: #f2f2f2;
-    margin-top: 100px;
 }
 
 .wrap-contact100 {
     width: 550px;
     background: transparent;
+    padding: 50px 0px 0px 0px;
 }
 
 
@@ -120,7 +154,7 @@ button:hover {
     font-family: Roboto;
     font-size: 1.5rem;
     color: #8f8fa1;
-    line-height: .5px;
+    line-height: 1.2;
 }
 
 
