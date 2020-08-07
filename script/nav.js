@@ -6,7 +6,7 @@ const menu_item = document.querySelectorAll(".header .nav-bar .nav-list ul li a"
 function navClr(){
     var scroll_position = window.scrollY;
 	if (scroll_position > 200) {
-		header.style.backgroundColor = '#29323c';
+		header.style.backgroundColor = '#1f1e1e';
 	} else {
 		header.style.backgroundColor = 'transparent';
 	}
